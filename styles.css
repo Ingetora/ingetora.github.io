@@ -1,0 +1,24 @@
+h1 {
+  font-size: 40px;
+  font-family: verdana;
+}
+
+p {
+    font-family: verdana;
+}
+
+.header {
+background-image: url("IMG_5217.jpg");
+height: 800px;
+width: auto;
+}
+
+.left {
+  color: #e0e0e0;
+  background-color: #001a33;
+}
+
+.body {
+  color: #001a33;
+  background-color: #e0e0e0;
+}
