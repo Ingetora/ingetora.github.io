@@ -1,24 +1,75 @@
-h1 {
+h3 {
   font-size: 40px;
   font-family: verdana;
+  border-bottom: 2px solid;
 }
 
 p {
     font-family: verdana;
 }
 
+.parent {
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.maria
+h3 {
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .header
+  p {
+    display: flex;
+    justify-content: center;
+  }
+
 .header {
 background-image: url("IMG_5217.jpg");
-height: 800px;
-width: auto;
+background-size: cover;
+height: 400px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.leftcontent img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.leftcontent {
+  color: #e0e0e0;
+  background-color: #001a33;
+  width: 80%;
+  padding-top: 40px;
 }
 
 .left {
   color: #e0e0e0;
   background-color: #001a33;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .body {
   color: #001a33;
   background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodycontent {
+  color: #001a33;
+  background-color: #e0e0e0;
+  width: 90%;
 }
